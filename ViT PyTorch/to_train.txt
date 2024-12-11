@@ -1,0 +1,1 @@
+python train.py -c configs/datasets/cifar10_224.yml --model vit_ti_56_224 'data' --no-aug
