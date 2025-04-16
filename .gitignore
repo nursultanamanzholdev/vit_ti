@@ -1,0 +1,16 @@
+# Python virtual environments
+venv/
+vit_ti/
+
+# Datasets
+cifar10/
+
+# Output directories
+output/
+
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/ 

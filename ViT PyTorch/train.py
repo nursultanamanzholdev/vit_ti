@@ -63,7 +63,7 @@ try:
 except ImportError:
     has_wandb = False
 
-torch.backends.cudnn.benchmark = True
+torch.backends.cudnn.benchmark = False
 _logger = logging.getLogger('train')
 
 # The first arg parser parses out only the --config argument, this argument is used to
